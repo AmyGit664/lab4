@@ -1,0 +1,247 @@
+    1  setxkbmap fr
+    2  ls
+    3  cd Documents
+    4  ls
+    5  setxkbmap fr
+    6  ls
+    7  https://github.com/AmyGit664/lab2_git.git
+    8  git remote
+    9  sudo apt install git gitk git-physiquechimie17@gmail.
+   10  sudo apt install git gitk git-email
+   11  git config --global user.name "Amy"
+   12  git config --global user.email physiquechimie17@gmail.com
+   13  git config --global user.name
+   14  git config --global user.email
+   15  git clone https://github.com/AmyGit664/lab2_git.git
+   16  git clone https://github.com/AmyGit664/lab3.git
+   17  ls
+   18  cd Desktop
+   19  ls
+   20  cd lab3
+   21  ls
+   22  ls -lrt
+   23  du Microsoft
+   24  ls -lrt
+   25  du sardar
+   26  stat Microsoft
+   27  ls -a
+   28  ls -t
+   29  ls -rt
+   30  ls -h
+   31  du answering-machine.txt
+   32  du Microsoft
+   33  du README.md
+   34  du sardar
+   35  ls -rh
+   36  cat answering-machine.txt
+   37  cat answering-machine.txt |more
+   38  sudo apt-get install vim
+   39  vim answering-machine.txt
+   40  setxkbmap fr
+   41  vim answering-machine.txt
+   42  vim sardar3.txt
+   43  tail -20 sardar3.txt
+   44  vim Microsoft
+   45  sudo apt-get install vim
+   46  ls
+   47  cd Desktop
+   48  ls
+   49  cd lab3
+   50  tail -20 sardar3.txt
+   51  tail -20 sardar3
+   52  ls
+   53  vim answering-machine.txt
+   54  ls
+   55  cd Desktop
+   56  cd lab3
+   57  tail -20 sardar3.txt
+   58  vim sardar3.txt
+   59  tail -20 Microsoft
+   60  cd sardar
+   61  ls
+   62  cd ..
+   63  cd Desktop
+   64  cd lab3
+   65  cd sardar
+   66  mv sardar3.txt /Desktop
+   67  mv sardar3.txt ~/Desktop
+   68  cd ..
+   69  mv sardar3.txt ~/lab3
+   70  mv sardar3.txt ~/Desktop
+   71  ls
+   72  cd home
+   73  cd Home
+   74  cd
+   75  cd Home
+   76  ls
+   77  mv lab3 sardar3.txt
+   78  ls
+   79  mv sardar3.txt ~/Desktop
+   80  ls
+   81  cd Desktop
+   82  ls
+   83  cd lab3
+   84  ls
+   85  rm Microsoft
+   86  ls
+   87  tar -cvf archive.tar answering-machine.txt README.md
+   88  ls
+   89  cp sardar archive.tar
+   90  cp -r sardar archive.tar
+   91  ls
+   92  tar t
+   93  tar archive.tar sardar
+   94  cp -r sardar ~/archive.tar
+   95  ls
+   96  cd
+   97  ls
+   98  rmkdir archive.tar
+   99  rmdir archive.tar
+  100  ls
+  101  rm -r archive.tar
+  102  ls
+  103  cd Desktop
+  104  cd lab3
+  105  ls
+  106  cd Desktop
+  107  cd lab3
+  108  ls
+  109  rm -r archive.tar
+  110  ls
+  111  tar -cvf archive.tar answering-machine.txt README.md sardar
+  112  ls
+  113  more archive.tar
+  114  ln -s sardar lien_symb
+  115  gedit lien_symb
+  116  ls
+  117  cd sardar
+  118  ls
+  119  rm sardar2.txt
+  120  ls
+  121  cd -
+  122  ls
+  123  cd lien_symb
+  124  ls
+  125  cd -
+  126  ls
+  127  cd sardar
+  128  vim sardar1.txt
+  129  ls
+  130  cd -
+  131  cd lien_symb
+  132  ls
+  133  vim sardar1.txt
+  134  ls
+  135  ls -lrt 
+  136  cd -
+  137  ls -l
+  138  cd sardar
+  139  ls -l
+  140  clear
+  141  cd
+  142  setxkbmap fr
+  143  git config --global user.name
+  144  git config --global user.email
+  145  cd Desktop
+  146  ls
+  147  mv sardar3.txt ~/lab3
+  148  cd lab3
+  149  ls
+  150  cd
+  151  ls
+  152  cd Desktop
+  153  ls
+  154  cd lab3
+  155  ls
+  156  find sardar3.txt
+  157  touch sardar3.txt
+  158  ls
+  159  git status
+  160  ls
+  161  cd archive.tar
+  162  cd
+  163  man tar
+  164  tar -cjvf lab3.tar.bz2 ~/lab3/
+  165  tar -cjvf lab3.tar.bz2 ~/lab3
+  166  cd Desktop
+  167  cd lab3
+  168  tar -cjvf lab3.tar.bz2 ~/lab3/
+  169  cd -
+  170  tar -cjvf lab3.tar.bz2 ~/lab3/
+  171  tar -cjvf lab3.tar.bz2 ~/lab3
+  172  ls
+  173  cd lab3
+  174  l
+  175  ls
+  176  rm -r lab3.tar.bz2
+  177  ls
+  178  cd -
+  179  ls
+  180  tar tvjf lab3.tar.bz2
+  181  ls
+  182  tar tvjf archive.tar
+  183  cd lab3
+  184  ls
+  185  tar tvjf archive.tar
+  186  cd -
+  187  tar -cjvf lab3.tar.bz2 lab3
+  188  ls
+  189  tar -tvjf lab3.tar.bz2
+  190  cd lab3
+  191  ls
+  192  cd -
+  193  ls
+  194  mv lab3.tar.bz2 lab3
+  195  ls
+  196  cd lab3
+  197  ls
+  198  git init
+  199  git status
+  200  git add.
+  201  git add .
+  202  git status
+  203  git commit
+  204  git push
+  205  git commit -a
+  206  git push origin master
+  207  cd
+  208  cd Desktop
+  209  git remote add origin https://github.com/AmyGit664/lab4.git
+  210  cd
+  211  git remote add origin https://github.com/AmyGit664/lab4.git
+  212  cd Desktop
+  213  git remote add origin https://github.com/AmyGit664/lab4.git
+  214  git clone https://github.com/AmyGit664/lab4.git
+  215  cd lab4
+  216  cd
+  217  cd Desktop
+  218  ls
+  219  rmdir lab4
+  220  rm -r lab4
+  221  ls
+  222  git clone https://github.com/khachicha/5AS05-partie4.git
+  223  ls
+  224  cd 5AS05-partie4
+  225  ls
+  226  cd
+  227  cd Desktop
+  228  ls
+  229  rmkdir lab4
+  230  mkdir lab4
+  231  ls
+  232  mv 5AS05-partie4 lab4
+  233  ls
+  234  cd lab4
+  235  ls
+  236  cd 5AS05-partie4
+  237  ls
+  238  history
+  239  touch history.txt
+  240  ls
+  241  ls history >> history.txt
+  242  history
+  243  >> history.txt
+  244  ls
+  245  cat history.txt
+  246  history
+  247  history > history.txt
