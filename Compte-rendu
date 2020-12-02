@@ -1,0 +1,116 @@
+*********************************************************************************************************************
+**************************************** lab4: Commandes shell avancées *********************************************
+*********************************************************************************************************************
+
+************************************
+********* 2/3èmes questions ********
+************************************
+
+Pour voir toutes les commandes déjà tapées
+, il suffit d'utiliser la commande "history". Un fichier "history.txt"
+a été créé pour y sauvegarder les résultats de cette commande => "history > history.txt".
+
+*******************************
+******** 4ème question ********
+*******************************
+
+On peut mettre bout à bout tous les fichiers du répertoire sardar/ dans un fichier que j'ai créé et qui s'appelle
+"sardar_power.txt". Il suffut d'appliquer la commande "cat" => 
+* touch sardar_power.txt <=> création du fichier
+* cat chemin(fichier1) chemin(fichier2) chemin(fichier3) > sardar_power.txt <=> concaténation
+ 
+*******************************
+******** 5ème question ********
+*******************************
+
+Pour connaître le nombre de lignes, de mots et de caractères dans ce nouveau fichier, il faut taper la commande "wc".
+En fait, en faisant "wc sardar_power.txt", on a 3 nombres successifs qui sont affichés et correspondent sucessivement
+aux nombres de lignes, de mots et de caractères. Pour être lus précis, on pourra faire un par un c'est à dire taper:
+* wc -l sardar_power_txt => 1980 lignes sont affichées
+* wc -w sardar_power_txt => 16783 mots
+* wc -c sardar_power_txt => 101780 caractères
+
+*******************************
+******** 6ème question ********
+*******************************
+
+Pour faire afficher toutes les lignes qui contiennent le mot "singh" dans ce fichier tout en ne faisant pas la différence
+entre majuscules et minuscules, il suffit d'utiliser la commande "grep" avec l'option "-i" => "grep -i singh sardar_power.txt"
+
+*******************************
+******** 7ème question ********
+*******************************
+
+On supprime ce fichier en faisant "rm sardar_power_txt ".
+
+*******************************
+******** 8ème question ********
+*******************************
+
+La commande "grep -i singh chemin(fichier1) chemin(fichier2) chemin(fichier3)" permet d'afficher toutes les lignes des 
+fichiers du répertoire sardar/ qui contiennent le mot "singh" toujours en ne faisant pas la différence entre majuscules 
+et minuscules.
+
+*******************************
+******** 9ème question ********
+*******************************
+
+On pourra compter le nombre de lignes obtenues en faisant "grep -ic singh chemin(fichier1) chemin(fichier2) chemin(fichier3)".
+On obtient le nombre de lignes pour chaque fichier contenant ce mot:
+
+********************************************************
+/home/student/Desktop/lab4/sardar/sardar1.txt:45
+/home/student/Desktop/lab4/sardar/sardar2.txt:1
+/home/student/Desktop/lab4/sardar/sardar3.txt:77
+********************************************************
+
+********************************
+******** 10ème question ********
+********************************
+
+On souhaiterait compter que les lignes qui contiennent à la fois les mots santa et singh, il faut taper dans ce cas:
+"grep -ic -E '(santa|singh)' chemin(fichier1) chemin(fichier2) chemin(fichier3)". On obtient 183 lignes.
+
+********************************
+******** 11ème question ********
+********************************
+
+POur compter les lignes qui contiennent santa, singh mais pas banta, il suffit de rajouter l'option -v dans la commande
+précédente et le mot banta.
+
+********************************
+******** 12ème question ********
+********************************
+
+Afin de trouver tous les fichiers dans le répertoire 5AS05-partie qui finissent par .txt, il faudra utiliser la commande
+find comme ceci => find -name "*.txt"
+
+********************************
+******** 13ème question ********
+********************************
+
+On crée un nouveau fichier qu'on appelle "test_commande_locate" avec "touch test_commande_locate". Ensuite, on copie le
+fichier "answering_machine.txt" vers ce nouveau fichier. En lançant la commande locate n'est pas trouvée, n'est pas dis-
+ponible.
+
+********************************
+******** 14ème question ********
+********************************
+
+Pour remédier à ce problème, il suffit de lancer la commande updatedb. Le chemin du fichier est affiché après relancement de
+la commande locate.
+
+********************************
+******** 15ème question ********
+********************************
+
+Pour comparer le contenu de deux fichiers noyau.v1 et noyau.v2, on utilise la commande diff. La synthaxe est
+"diff noyau.V1 noyau.V2". Cette commande affiche les numéros de ligne où on voit les différences.
+
+********************************
+******** 16ème question ********
+********************************
+
+"diff noyau.V1 noyau.V2 > update.patch" => création d'un patch
+Ce patch est appliqué au fichier noyau.v1 pour assurer la mise à jour de ce dernier.
+=> patch -i update.patch noyau.V1
