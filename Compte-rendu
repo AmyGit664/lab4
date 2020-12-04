@@ -111,6 +111,13 @@ Pour comparer le contenu de deux fichiers noyau.v1 et noyau.v2, on utilise la co
 ******** 16ème question ********
 ********************************
 
+Pour mettre à jour le noyau.V1 vers le noyau.V2, il faudra au préalable stocker le résultat obtenu avec la commande précédente
+dans un fichier appelé "update.patch" ensuite il suffit d'appliquer ce patch créé sur le fichier noyau.V1
+Les commandes utilisées sont les suivantes:
+* diff noyau.V1 noyau.V2 > update.patch
+* patch -i update.patch noyau.V1
+
+
 "diff noyau.V1 noyau.V2 > update.patch" => création d'un patch
 Ce patch est appliqué au fichier noyau.v1 pour assurer la mise à jour de ce dernier.
 => patch -i update.patch noyau.V1
